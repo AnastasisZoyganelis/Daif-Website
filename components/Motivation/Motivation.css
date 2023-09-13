@@ -1,0 +1,55 @@
+.motivation-framer{
+    display: flex;
+padding: 100px 460px;
+flex-direction: column;
+align-items: center;
+background: #000;
+}
+.motivation-box{
+    border:2px dotted white;
+    
+    margin-left: -650px;
+    display: flex;
+max-width: 1000px;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+}
+.motivation-box-header{
+    display: flex;
+padding-right: 0px;
+flex-direction: column;
+align-items: flex-start;
+margin:15px;
+color: #EDDCD2;
+font-family: Staatliches;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 57.6px; /* 120% */
+}
+.motivation-box-header:hover{
+    font-size: 50px;
+}
+.motivation-text-framer{
+    margin:15px;
+    display: flex;
+max-width: 600px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 40px;
+
+}
+.text1,.text2,.text3{
+    color: #EEDDD3;
+font-family: Space Mono;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+.video-framer{
+    margin-left:600px;
+    margin-top:-600px;
+}
