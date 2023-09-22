@@ -57,7 +57,7 @@ const Packages = () => {
                     </div>
                 </div>
                 <div className='button-start'>
-                    <button className='package-free-button'>Get Started</button>
+                <a href='https://t.me/+7NjueFSePMgxMDNk' className='free-link'><button className='package-free-button'>Get Started</button></a>
                 </div>
             </div>
             <div className='package-free'>
@@ -84,13 +84,13 @@ const Packages = () => {
                     </div>
                 </div>
                 <div className='button-start'>
-                    <button className='package-free-button'>Get Started</button>
+                    <a href='https://t.me/+7NjueFSePMgxMDNk' className='free-link'><button className='package-free-button'>Get Started</button></a>
                 </div>
             </div>
             <div className='package-free'>
                 <h1 className='package-free-title'>VIP</h1>
                 <div className='price'>
-                    <h2>$ 100</h2>
+                    <h2>$ 150</h2>
                 </div>
                 <div className='futures'>
                     <div className='future-layout'>
@@ -104,7 +104,7 @@ const Packages = () => {
                     
                 </div>
                 <div className='button-start'>
-                    <button className='package-free-button'>Get Started</button>
+                    <a href='https://t.me/+7NjueFSePMgxMDNk' className='free-link'><button className='package-free-button'>Get Started</button></a>
                 </div>
             </div>
 

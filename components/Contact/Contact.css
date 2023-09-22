@@ -1,83 +1,458 @@
 .contact-framer{
+    width: 100%;
+
+}
+.contact-wrapper{
+    display: inline-flex;
+    height: 880px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: radial-gradient(70.71% 70.71% at 50% 50%, #A200FF 0%, #020431 100%);
+}
+.upper-contact{
     display: flex;
-padding: 100px 820px 99.99px 100px;
+justify-content: space-between;
+align-items: center;
+flex: 1 0 0;
+}
+.zone1-upper{
+    display: flex;
+    width: 1020px;
+    padding: 0px 100px 100.03px 100px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+.zone2-upper{
+    display: flex;
+    width: 900px;
+    padding: 0px 82.5px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+.contact-logo:hover{
+    color:gold
+}
+.contact-logo{
+    color: white;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.7px;
+    margin-right:-200px;
+}
+.contact-info{
+    width: 420px;
+height: 457.95px;
+margin-bottom: 100px;
+margin-right:-200px;
+padding: 20px;
+
+}
+.contact-header:hover{
+    font-size: 60px;
+   
+}
+.contact-header{
+    display: flex;
+width: 420px;
 flex-direction: column;
 align-items: flex-start;
-background: #000;
-
+gap: -0.01px;
+color:white;
+font-size: 58px;
+}
+.info-contact{
+    display: flex;
+width: 420px;
+padding-right: 0px;
+flex-direction: column;
+align-items: flex-start;
+opacity: 0.9969;
+color: #FFF;
+margin-bottom: 10px;
+font-family: monospace;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28.8px; /* 160% */
 }
 .contact-form{
     display: flex;
-width: 1000px;
-max-width: 1920px;
-padding: 100px;
+width: 420px;
 flex-direction: column;
 align-items: flex-start;
-gap: 30px;
-border:2px solid white;
-margin-left:150px;
+gap: 15px;
+opacity: 0.9948;
 }
-.contact-heading:hover{
-    color:#ec960b;
-    font-size: 50px;
-}
-.contact-heading{
-    color: #EDAE49;
-font-family: Staatliches;
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: 57.6px; /* 120% */
-display: flex;
-width: 600px;
-padding-right: 0px;
-flex-direction: column;
-align-items: flex-start;
-}
-.contact-text{
+.contact-input{
     display: flex;
-width: 400px;
-padding-right: 0px;
+width: 380px;
+padding: 17px 15px 18.39px 15px;
 flex-direction: column;
 align-items: flex-start;
-color: #FFF;
-font-family: Space Mono;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
+border-radius: 8px;
+background: #FFF;
 }
-.input-contact{
-    display: flex;
-padding: 15px;
-flex-direction: column;
-align-items: flex-start;
-flex: 1 0 0;
-border-radius: 10px;
-background: #181717;
-color:white;
-}
-.contact-fill{
-    display: flex;
-width: 360px;
-align-items: flex-start;
-gap: 10px;
-}
-.button-contact:hover{
+.contact-button:hover{
     cursor: pointer;
-    background: #02bdda ;
+    animation: bounce 0.5s infinite alternate;
 }
-.button-contact{
-    color: #000;
+.contact-button{
+    display: flex;
+    width: 420px;
+padding: 14px 161.4px 15.39px 161.6px;
+align-items: flex-start;
+border-radius: 8px;
+background: #000;
+color: #FFF;
 text-align: center;
-font-family: Staatliches;
+font-family: Inter;
 font-size: 16px;
 font-style: normal;
-font-weight: 500;
-line-height: 16px; /* 100% */
-display: flex;
-padding: 20px 25px;
-align-items: flex-start;
-border-radius: 15px;
-background: #00798C;
+font-weight: 600;
+line-height: 22.4px; /* 140% */
+}
+.bitcoin-image{
+    height:800px;
+    margin-left: -400px;
+}
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-5px); /* Adjust the value to control the distance */
+    }
+  }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .contact-framer {
+      width: 400px;
+    }
+  
+    .contact-wrapper {
+      display: inline-flex;
+      height: auto; /* Adjust the height as needed */
+      width: 500px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+      background: radial-gradient(70.71% 70.71% at 50% 50%, #A200FF 0%, #020431 100%);
+    }
+  
+    .upper-contact {
+      display: flex;
+      flex-direction: column; /* Change to column layout */
+      justify-content: center;
+      align-items: center;
+      flex: 1 0 0;
+    }
+  
+    .zone1-upper {
+      display: flex;
+      width:300px; /* Adjust the width */
+      padding: 10px; /* Adjust the padding */
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      align-self: stretch;
+    }
+  
+    .zone2-upper {
+      display: flex;
+      width: 400px; /* Adjust the width */
+      padding: 10px; /* Adjust the padding */
+      justify-content: center;
+      align-items: center;
+      align-self: stretch;
+    }
+  
+    .contact-logo:hover {
+      color: gold;
+    }
+  
+    .contact-logo {
+      color: white;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 36px;
+      letter-spacing: -0.7px;
+      margin-right: 0; /* Remove the negative margin */
+      text-align: center; /* Center the logo text */
+    }
+  
+    .contact-info {
+      width: 300px; /* Adjust the width */
+      height: auto; /* Adjust the height as needed */
+      margin-bottom: 20px; /* Adjust the margin */
+      margin-right: 0; /* Remove the negative margin */
+      padding: 20px;
+    }
+  
+    .contact-header:hover {
+      font-size: 48px; /* Adjust the font size */
+    }
+  
+    .contact-header {
+      display: flex;
+      width: 100%; /* Adjust the width */
+      flex-direction: column;
+      align-items: center; /* Center the text */
+      gap: 5px; /* Adjust the gap */
+      color: white;
+      font-size: 46px; /* Adjust the font size */
+      text-align: center; /* Center the text */
+    }
+  
+    .info-contact {
+      display: flex;
+      width: 100%; /* Adjust the width */
+      padding-right: 0;
+      flex-direction: column;
+      align-items: center; /* Center the text */
+      opacity: 0.9969;
+      color: #FFF;
+      margin-bottom: 10px;
+      font-family: monospace;
+      font-size: 14px; /* Adjust the font size */
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* Adjust the line-height */
+    }
+  
+    .contact-form {
+      display: flex;
+      width: 300px; /* Adjust the width */
+      flex-direction: column;
+      align-items: center; /* Center the form */
+      gap: 15px;
+      opacity: 0.9948;
+    }
+  
+    .contact-input {
+      display: flex;
+      width: 250px; /* Adjust the width */
+      padding: 10px; /* Adjust the padding */
+      flex-direction: column;
+      align-items: center; /* Center the input */
+      border-radius: 8px;
+      background: #FFF;
+    }
+  
+    .contact-button:hover {
+      cursor: pointer;
+      animation: bounce 0.5s infinite alternate;
+    }
+  
+    .contact-button {
+      display: flex;
+      width: 280px; /* Adjust the width */
+      padding: 14px; /* Adjust the padding */
+      align-items: center; /* Center the button text */
+      border-radius: 8px;
+      background: #000;
+      color: #FFF;
+      text-align: center;
+      font-family: Inter;
+      font-size: 16px; /* Adjust the font size */
+      font-style: normal;
+      font-weight: 600;
+      line-height: 22.4px;
+    }
+  
+    .bitcoin-image {
+      height: 400px; /* Adjust the height as needed */
+      margin-left: -80px; /* Remove the negative margin */
+    }
+  
+    @keyframes bounce {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-5px);
+      }
+    }
+  }
+  
+
+/* For tablet devices (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .contact-framer {
+    width: 100%;
+  }
+
+  .contact-wrapper {
+    display: inline-flex;
+    height: auto; /* Adjust the height as needed */
+    width: 100%; /* Adjust the width as needed */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: radial-gradient(70.71% 70.71% at 50% 50%, #A200FF 0%, #020431 100%);
+  }
+
+  .upper-contact {
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    
+  }
+
+  .zone1-upper {
+    display: flex;
+    width: 100%; /* Adjust the width as needed */
+    padding: 20px; /* Adjust the padding */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+   
+  }
+
+  .zone2-upper {
+    display: flex;
+    width: 100%; /* Adjust the width as needed */
+    padding: 20px; /* Adjust the padding */
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+  }
+
+  .contact-logo:hover {
+    color: gold;
+  }
+
+  .contact-logo {
+    color: white;
+    font-family: Inter;
+    font-size: 24px; /* Adjust the font size for tablet */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.7px;
+    margin-right: 0; /* Remove the negative margin */
+    text-align: center; /* Center the logo text */
+  }
+
+  .contact-info {
+    width: 80%; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    margin-bottom: 20px; /* Adjust the margin */
+    margin-right: 0; /* Remove the negative margin */
+    padding: 20px;
+  }
+
+  .contact-header:hover {
+    font-size: 48px; /* Adjust the font size */
+  }
+
+  .contact-header {
+    display: flex;
+    width: 100%; /* Adjust the width */
+    flex-direction: column;
+    align-items: center; /* Center the text */
+    gap: 5px; /* Adjust the gap */
+    color: white;
+    font-size: 46px; /* Adjust the font size */
+    text-align: center; /* Center the text */
+  }
+
+  .info-contact {
+    display: flex;
+    width: 100%; /* Adjust the width */
+    padding-right: 0;
+    flex-direction: column;
+    align-items: center; /* Center the text */
+    opacity: 0.9969;
+    color: #FFF;
+    margin-bottom: 10px;
+    font-family: monospace;
+    font-size: 14px; /* Adjust the font size */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* Adjust the line-height */
+  }
+
+  .contact-form {
+    display: flex;
+    width: 100%; /* Adjust the width as needed */
+    flex-direction: column;
+    align-items: center; /* Center the form */
+    gap: 15px;
+    opacity: 0.9948;
+  }
+
+  .contact-input {
+    display: flex;
+    width: 50%; /* Adjust the width as needed */
+    margin-top:20px;
+    padding: 10px; /* Adjust the padding */
+    flex-direction: column;
+    align-items: center; /* Center the input */
+    border-radius: 8px;
+    background: #FFF;
+  }
+
+  .contact-button:hover {
+    cursor: pointer;
+    animation: bounce 0.5s infinite alternate;
+  }
+
+  .contact-button {
+    display: flex;
+    width: 55%; /* Adjust the width as needed */
+    padding: 10px; /* Adjust the padding */
+    align-items: center; /* Center the button text */
+    border-radius: 8px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px; /* Adjust the font size */
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22.4px;
+  }
+
+  .bitcoin-image {
+    height: 600px; /* Adjust the height as needed */
+    margin-left: 0; /* Remove the negative margin */
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1439px){
+
+  .zone1-upper{
+    margin-left: 170px;
+  }
+  .bitcoin-image{
+    height: 580px;
+  }
 }

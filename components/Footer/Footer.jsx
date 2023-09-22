@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll';
+import {Link as RouterLink} from 'react-router-dom';
 import './Footer.css';
 const Footer = () => {
   return (
@@ -8,23 +9,24 @@ const Footer = () => {
             <div className='item1'>
                 <h3 className='item1-header'>Explore</h3>
                 <div className='item1-containers'>
-                    <h3 className='item1-text'>About</h3>
+                    <h3 className='item1-text'><Link to='about'smooth={true}>About</Link></h3>
                     <h3 className='item1-text'><Link to='services'smooth={true}>Pricing+Services</Link></h3>
-                    
+                    <h3 className='item1-text'>Portofolio</h3>
                 </div>
             </div>
             <div className='item1'>
                 <h3 className='item1-header'>Resources</h3>
                 <div className='item1-containers'>
                     <h3 className='item1-text'><Link to='faq'smooth={true}>FAQ</Link></h3>
-                    <h3 className='item1-text'>Blog</h3>
+                    <h3 className='item1-text'><RouterLink to='/blog' className='router-link-nav'>Free Trades</RouterLink></h3>
                     <h3 className='item1-text'>Reports</h3>
+                    
                 </div>
             </div>
             <div className='item1'>
                 <h3 className='item1-header'>Connect</h3>
                 <div className='item1-containers'>
-                    <h3 className='item1-text'>Contact</h3>
+                <h3 ><Link  className='item1-text' to='contact'smooth={true}>Contact</Link></h3>
                     <h3 ><a className='item1-text' href='https://twitter.com/AZoyganelis'>Twitter</a></h3>
                     <h3 ><a className='item1-text' href='https://www.instagram.com/daif.gr'>Instagram</a></h3>
                 </div>

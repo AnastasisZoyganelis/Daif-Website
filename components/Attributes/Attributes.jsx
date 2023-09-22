@@ -22,7 +22,7 @@ const Attributes = () => {
                 </div>
                 <div className='emoji-security-text-framer'>
                     <h3 className='emoji-security-header'>Top-notch Security</h3>
-                    <p className='emoji-security-text'>Safe and encrypted</p>
+                    <p className='emoji-security-text'>Safe and encrypted via Ledger and Metamask</p>
 
                 </div>
                 

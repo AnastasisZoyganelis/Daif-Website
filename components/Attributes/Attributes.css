@@ -76,3 +76,232 @@ align-self: stretch;
     line-height: 21px; /* 150% */
     
 }
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .attributes-section-framer {
+      display: flex;
+      padding: 40px 20px;
+      flex-direction: column;
+      align-items: center;
+      background: #000;
+    }
+  
+    .attributes-framer-center {
+      display: flex;
+      max-width: 100%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; /* Change to column layout */
+      gap: 20px;
+      margin-left: 0;
+    }
+  
+    .box1, .box2, .box3 {
+      display: flex;
+      padding: 20px;
+      flex-direction: column; /* Change to column layout */
+      align-items: center;
+      gap: 20px;
+      border-radius: 20px;
+      background: #0D0D0D;
+      max-width: 200px; /* Ensure boxes take full width */
+    }
+  
+    .emoji-rocket, .emoji-security, .emoji-global {
+      display: flex;
+      height: 120px;
+      padding: 20px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-self: stretch;
+      border-radius: 10px;
+      background: #000;
+    }
+  
+    .rocket:hover, .security:hover, .global:hover {
+      font-size: 40px;
+    }
+  
+    .rocket, .security, .global {
+      color: #FFF;
+      text-align: center;
+      font-family: Inter;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 43.2px;
+    }
+  
+    .emoji-rocket-text-framer, .emoji-security-text-framer, .emoji-global-text-framer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1px;
+      align-self: stretch;
+    }
+  
+    .emoji-rocker-header:hover, .emoji-security-header:hover, .emoji-global-header:hover {
+      color: red;
+    }
+  
+    .emoji-rocker-header, .emoji-security-header, .emoji-global-header {
+      color: #FFF;
+      font-family: Staatliches;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  
+    .emoji-rocket-text, .emoji-security-text, .emoji-global-text {
+      color: #FFF;
+      font-family: Space Mono;
+      padding: 5px;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px;
+    }
+  }
+  
+/* For tablet devices (between 768px and 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .attributes-section-framer {
+    display: flex;
+    padding: 20px 20px; /* Adjust padding as needed */
+    flex-direction: flex;
+    align-items: center;
+    background: #000;
+  }
+
+  .attributes-framer-center {
+    display: flex;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Change to column layout */
+    gap: 20px;
+    margin-left: 0;
+  }
+
+  .box1, .box2, .box3 {
+    display: flex;
+    padding: 40px;
+    flex-direction: column; /* Change to column layout */
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background: #0D0D0D;
+    max-width: 200px; /* Ensure boxes take full width */
+  }
+
+  .emoji-rocket, .emoji-security, .emoji-global {
+    display: flex;
+    height: 120px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 10px;
+    background: #000;
+  }
+
+  .rocket:hover, .security:hover, .global:hover {
+    font-size: 40px;
+  }
+
+  .rocket, .security, .global {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 43.2px;
+  }
+
+  .emoji-rocket-text-framer, .emoji-security-text-framer, .emoji-global-text-framer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    align-self: stretch;
+  }
+
+  .emoji-rocker-header:hover, .emoji-security-header:hover, .emoji-global-header:hover {
+    color: red;
+  }
+
+  .emoji-rocker-header, .emoji-security-header, .emoji-global-header {
+    color: #FFF;
+    font-family: Staatliches;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .emoji-rocket-text, .emoji-security-text, .emoji-global-text {
+    color: #FFF;
+    font-family: Space Mono;
+    padding: 5px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+  }
+}
+
+/* For screens larger than 1024px and smaller than 1440px */
+@media (min-width: 1025px) and (max-width: 1439px) {
+  .attributes-section-framer {
+    padding: 30px 60px; /* Adjust padding as needed */
+  }
+
+  .attributes-framer-center {
+    max-width: 800px; /* Adjust max width as needed */
+    margin-left: -0px; /* Adjust margin as needed */
+  }
+
+  .box1, .box2, .box3 {
+    padding: 20px;
+    max-width: 300px; /* Adjust max width as needed */
+  }
+
+  .emoji-rocket, .emoji-security, .emoji-global {
+    height: 150px; /* Adjust height as needed */
+    padding: 40px; /* Adjust padding as needed */
+  }
+
+  .rocket:hover, .security:hover, .global:hover {
+    font-size: 50px; /* Adjust font size on hover */
+  }
+
+  .rocket, .security, .global {
+    font-size: 40px; /* Adjust font size */
+    line-height: 48px; /* Adjust line height */
+  }
+
+  .emoji-rocket-text-framer, .emoji-security-text-framer, .emoji-global-text-framer {
+    max-width: 300px; /* Adjust max width as needed */
+  }
+
+  .emoji-rocker-header:hover, .emoji-security-header:hover, .emoji-global-header:hover {
+    color: red;
+  }
+
+  .emoji-rocker-header, .emoji-security-header, .emoji-global-header {
+    font-size: 18px; /* Adjust font size */
+    line-height: 27px; /* Adjust line height */
+  }
+
+  .emoji-rocket-text, .emoji-security-text, .emoji-global-text {
+    font-size: 14px; /* Adjust font size */
+    line-height: 21px; /* Adjust line height */
+  }
+}
+

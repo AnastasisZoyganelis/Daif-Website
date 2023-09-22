@@ -61,3 +61,153 @@
     align-items: flex-start;
     color:white;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .FAQ-wrapper {
+      display: flex;
+      padding: 30px 20px; /* Adjust the padding for mobile */
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      background-color: black;
+    }
+  
+    .FAQ-header {
+      display: flex;
+      padding-right: 0px;
+      flex-direction: column;
+      align-items: center; /* Center the text */
+      margin-top: -20px; /* Adjust the margin-top for mobile */
+      color: #FFF1E6;
+      font-family: Space Mono;
+      font-size: 32px; /* Adjust the font size for mobile */
+      font-style: normal;
+      font-weight: 400;
+      line-height: 38.4px; /* Adjust the line-height for mobile */
+      text-align: center; /* Center the text */
+    }
+  
+    .FAQ-text-wrapper {
+      display: flex;
+      height: auto; /* Allow the height to adjust as needed */
+      max-width: 100%; /* Adjust the maximum width for mobile */
+      justify-content: center;
+      align-items: center; /* Center the elements horizontally */
+      flex-direction: column; /* Stack elements vertically */
+      gap: 20px; /* Adjust the gap between elements */
+      margin-bottom: 20px; /* Adjust the margin-bottom for mobile */
+    }
+  
+    .FAQ-element {
+      display: flex;
+      max-width: 100%; /* Adjust the maximum width for mobile */
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; /* Center the elements horizontally */
+      gap: 11px; /* Adjust the gap between elements */
+      flex: 1 0 0;
+    }
+  
+    .faq-question:hover {
+      text-decoration: underline;
+    }
+  
+    .faq-question {
+      display: flex;
+      width: 100%; /* Adjust the width to fit the screen */
+      font-family: Space Mono;
+      padding-right: 0px;
+      flex-direction: column;
+      align-items: center; /* Center the text horizontally */
+      color: #f3dece;
+      text-align: center; /* Center the text horizontally */
+    }
+  
+    .faq-answer {
+      display: flex;
+      width: 100%; /* Adjust the width to fit the screen */
+      padding-right: 0px;
+      flex-direction: column;
+      align-items: center; /* Center the text horizontally */
+      color: white;
+      text-align: center; /* Center the text horizontally */
+    }
+  }
+  /* For tablet devices (max-width: 1024px) */
+@media (min-width:764px)and(max-width: 1024px) {
+  .FAQ-wrapper {
+    display: flex;
+    padding: 40px 20px; /* Adjust the padding for tablet */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+  }
+
+  .FAQ-header {
+    display: flex;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: center; /* Center the text */
+    margin-top: -20px; /* Adjust the margin-top for tablet */
+    color: #FFF1E6;
+    font-family: Space Mono;
+    font-size: 30px; /* Adjust the font size for tablet */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* Adjust the line-height for tablet */
+    text-align: center; /* Center the text */
+    margin-left: 80px;
+  }
+
+  .FAQ-text-wrapper {
+    display: flex;
+    height: auto; /* Allow the height to adjust as needed */
+    max-width: 100%; /* Adjust the maximum width for tablet */
+    justify-content: center;
+    align-items: center; /* Center the elements horizontally */
+    flex-direction: column; /* Stack elements vertically */
+    gap: 20px; /* Adjust the gap between elements */
+    margin-bottom: 20px; /* Adjust the margin-bottom for tablet */
+     margin-left: 80px;
+  }
+
+  .FAQ-element {
+    display: flex;
+   
+    max-width: 80%; /* Adjust the maximum width for tablet */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center the elements horizontally */
+    gap: 11px; /* Adjust the gap between elements */
+    flex: 1 0 0;
+  }
+
+  .faq-question:hover {
+    text-decoration: underline;
+  }
+
+  .faq-question {
+    display: flex;
+    width: 100%; /* Adjust the width to fit the screen */
+    font-family: Space Mono;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: center; /* Center the text horizontally */
+    color: #f3dece;
+    text-align: center; /* Center the text horizontally */
+  }
+
+  .faq-answer {
+    display: flex;
+    width: 80%; /* Adjust the width to fit the screen */
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: center; /* Center the text horizontally */
+    color: white;
+    text-align: center; /* Center the text horizontally */
+  }
+}

@@ -1,37 +1,39 @@
-.motivation-framer{
+.about-framer{
     display: flex;
 padding: 100px 460px;
-flex-direction: column;
+flex-direction: row;
+gap:200px;
+
 align-items: center;
 background: #000;
 }
-.motivation-box{
-    border:2px dotted white;
+.about-box{
+ 
     
-    margin-left: -650px;
+    margin-left: 20px;
     display: flex;
 max-width: 1000px;
 flex-direction: column;
 align-items: flex-start;
 gap: 40px;
 }
-.motivation-box-header{
+.about-box-header{
     display: flex;
 padding-right: 0px;
 flex-direction: column;
 align-items: flex-start;
 margin:15px;
-color: #EDDCD2;
+color:#ec960b;
 font-family: Staatliches;
 font-size: 48px;
 font-style: normal;
 font-weight: 400;
 line-height: 57.6px; /* 120% */
 }
-.motivation-box-header:hover{
+.about-box-header:hover{
     font-size: 50px;
 }
-.motivation-text-framer{
+.about-text-framer{
     margin:15px;
     display: flex;
 max-width: 600px;
@@ -55,30 +57,29 @@ line-height: 30px; /* 150% */
 }
 /* Mobile Styles */
 @media (max-width: 768px) {
-    .motivation-framer {
+    .about-framer {
       display: flex;
-      padding: 20px;
+      padding: 40px;
       flex-direction: column;
       align-items: center;
       background: #000;
     }
   
-    .motivation-box {
-      border: 2px dotted white;
+    .about-box {
       margin-left: 0;
       max-width: 100%;
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
       gap: 20px;
     }
   
-    .motivation-box-header {
+    .about-box-header {
       display: flex;
-      padding-right: 0px;
+      padding-right: 0;
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
       margin: 15px;
-      color: #EDDCD2;
+      color: #ec960b;
       font-family: Staatliches;
       font-size: 32px; /* Adjust the font size for mobile */
       font-style: normal;
@@ -86,129 +87,131 @@ line-height: 30px; /* 150% */
       line-height: 38.4px; /* 120% */
     }
   
-    .motivation-box-header:hover {
+    .about-box-header:hover {
       font-size: 34px; /* Adjust the font size for mobile */
     }
   
-    .motivation-text-framer {
+    .about-text-framer {
       margin: 15px;
       max-width: 100%;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-start;
+      align-items: center;
       gap: 20px;
     }
   
-    .text1,
-    .text2,
-    .text3 {
+    .text1, .text2, .text3 {
       color: #EEDDD3;
       font-family: Space Mono;
       font-size: 16px; /* Adjust the font size for mobile */
       font-style: normal;
       font-weight: 400;
       line-height: 24px; /* 150% */
+      text-align: center;
     }
   
     .video-framer {
       margin-left: 0;
-      margin-top: -200px; /* Adjust the margin for mobile */
+      margin-top: 0; /* Adjust the margin for mobile */
     }
   }
-/* For tablet devices (between 768px and 1024px) */
+  /* For tablet devices (between 768px and 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .motivation-framer {
+  .about-framer {
     display: flex;
-    padding: 40px; /* Adjust padding as needed */
-    flex-direction: column;
+    padding: 50px 20px; /* Adjust padding as needed */
+    flex-direction: row;
+    gap: 10px; /* Adjust gap as needed */
     align-items: center;
     background: #000;
   }
 
-  .motivation-box {
-    border: 2px dotted white;
-    margin-left: 180px; /* Adjust margin as needed */
+  .about-box {
+    margin-left: 200px;
     display: flex;
-    max-width: 800px; /* Adjust max width as needed */
+    max-width: 1000px; /* Adjust max width as needed */
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px; /* Adjust gap as needed */
+    gap: 40px;
   }
 
-  .motivation-box-header {
+  .about-box-header {
     display: flex;
     padding-right: 0px;
     flex-direction: column;
     align-items: flex-start;
     margin: 15px;
-    color: #EDDCD2;
+    color: #ec960b;
     font-family: Staatliches;
-    font-size: 36px; /* Adjust the font size for tablet */
+    font-size: 38px;
     font-style: normal;
     font-weight: 400;
-    line-height: 43.2px; /* 120% */
+    line-height: 57.6px; /* 120% */
   }
 
-  .motivation-box-header:hover {
-    font-size: 38px; /* Adjust the font size for tablet */
+  .about-box-header:hover {
+    font-size: 40px;
   }
 
-  .motivation-text-framer {
+  .about-text-framer {
     margin: 15px;
     display: flex;
     max-width: 600px; /* Adjust max width as needed */
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 20px; /* Adjust gap as needed */
+    gap: 30px;
   }
 
   .text1, .text2, .text3 {
     color: #EEDDD3;
     font-family: Space Mono;
-    font-size: 18px; /* Adjust the font size for tablet */
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 27px; /* 150% */
+    line-height: 30px; /* 150% */
   }
 
   .video-framer {
-    margin-left: 300px; /* Adjust margin as needed */
-    margin-top: -300px; /* Adjust margin as needed */
+    margin-left: 150px; /* Adjust margin as needed */
+    margin-top: 00px; /* Adjust margin as needed */
   }
 }
 /* For screens larger than 1024px and smaller than 1440px */
 @media (min-width: 1025px) and (max-width: 1439px) {
-  .motivation-framer {
-    padding: 30px; /* Adjust padding as needed */
+  .about-framer {
+    padding: 10px 30px; /* Adjust padding as needed */
+    gap: 100px; /* Adjust gap between elements as needed */
   }
 
-  .motivation-box {
-    margin-left: 120px; /* Adjust margin as needed */
-    max-width: 900px; /* Adjust max width as needed */
-    gap: 30px; /* Adjust gap as needed */
+  .about-box {
+    margin-left: 180px; /* Adjust margin as needed */
+    max-width: 800px; /* Adjust max width as needed */
+    gap: 20px; /* Adjust gap between child elements as needed */
   }
 
-  .motivation-box-header {
+  .about-box-header {
     font-size: 40px; /* Adjust the font size */
     line-height: 48px; /* Adjust line height */
   }
 
-  .motivation-box-header:hover {
-    font-size: 42px; /* Adjust the font size on hover */
+  .about-box-header:hover {
+    font-size: 42px; /* Adjust font size on hover */
   }
 
-  .motivation-text-framer {
-    max-width: 800px; /* Adjust max width as needed */
+  .about-text-framer {
+    max-width: 500px; /* Adjust max width as needed */
+    gap: 20px; /* Adjust gap between child elements as needed */
   }
 
   .text1, .text2, .text3 {
-    font-size: 18px; /* Adjust the font size */
-    line-height: 27px; /* Adjust line height */
+    font-size: 16px; /* Adjust the font size */
+    line-height: 24px; /* Adjust line height */
+    text-align: left; /* Adjust text alignment */
   }
 
   .video-framer {
-    margin-left: 200px; /* Adjust margin as needed */
-    margin-top: -250px; /* Adjust margin-top as needed */
+    margin-left: 80px; /* Adjust margin as needed */
+    margin-top: 0; /* Adjust margin-top as needed */
   }
 }

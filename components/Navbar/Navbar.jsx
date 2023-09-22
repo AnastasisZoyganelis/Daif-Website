@@ -17,11 +17,11 @@ const Navbar = () => {
               <li className='component1'><Link to='home'smooth={true}>Home</Link></li>
               <li className='component2'><Link to='services'smooth={true}>Services</Link></li>
               <li className='component2'><Link to='faq'smooth={true}>FAQ</Link></li>
-              <li className='component3'>About</li>
+              <li className='component3'><Link to='about'smooth={true}>About</Link></li>
             </ul>
 
           </div>
-          <div ><img ></img></div>
+          
           
           <h1 className='navigation-header'>Welcome to the future of<br/> cryptocurrency investing</h1>
           

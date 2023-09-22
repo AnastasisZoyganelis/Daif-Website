@@ -1,0 +1,356 @@
+.navigation-framer2{
+    
+    display: flex;
+
+    height: 800px;
+    
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(67deg, #EDDCD2 0%, #EDEDE8 100%);
+  }
+.blog-wrapper{
+    width: 1920px;
+height: 1316.39px;
+color: #EEDDD3;
+margin-top:-500px;
+}
+.blog-section{
+    display: inline-flex;
+min-height: 1080px;
+padding: 50px 700px;
+flex-direction: column;
+align-items: center;
+background:#EEDDD3 ;
+}
+.blog-part{
+    display: flex;
+width: 800px;
+max-width: 1920px;
+padding: 100px 100px 100px 99.789px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+margin-left:-100px;
+background-color: rgb(34, 32, 32);
+border: 2px dashed white;
+}
+.blog-header{
+
+color: white;
+text-align: center;
+font-family: Inter;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: 86.4px; /* 120% */
+letter-spacing: -3.8px;
+}
+.blog-main{
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+.blog-row{
+    display: flex;
+padding-right: 0px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+align-self: stretch;
+border:2px solid white;
+}
+.blog-element{
+    display: flex;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+.blog-image{
+    width: 125px;
+height: 125px;
+border-radius: 70px;
+
+}
+.blog-info{
+    display: flex;
+width: 455px;
+padding-bottom: 0px;
+flex-direction: column;
+align-items: flex-start;
+gap: 5px;
+}
+.blog-info-header:hover{
+    color:gold;
+}
+.blog-info-header{
+    color: white;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; /* 150% */
+letter-spacing: -0.7px;
+}
+.blog-info-date{
+    color: #666;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px; /* 160% */
+}
+.link-nav{
+    text-decoration: none;
+    color:black;
+}
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .blog-wrapper {
+      width: 400px;
+      height: auto; /* Allow the height to adjust as needed */
+      color: #EEDDD3;
+      margin-top: -50px; /* Remove margin-top for mobile */
+    }
+  .navigation-framer2{
+    height:200px;
+    display: flex;
+    margin-left: 0px;
+    
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(67deg, #EDDCD2 0%, #EDEDE8 100%);
+  }
+    .blog-section {
+      display: inline-flex;
+      min-height: auto; /* Allow the height to adjust as needed */
+      padding: 20px 20px; /* Adjust the padding for mobile */
+      flex-direction: column;
+      align-items: center;
+      background: #EEDDD3;
+      margin-top: 40px;
+    }
+  
+    .blog-part {
+      display: flex;
+      width:400px; /* Adjust the width to fit the screen */
+      max-width: 100%; /* Adjust the maximum width for mobile */
+      padding: 40px 20px; /* Adjust the padding for mobile */
+      flex-direction: column;
+      align-items: center; /* Center the elements horizontally */
+      gap: 20px;
+      margin-left: 0; /* Remove margin-left for mobile */
+      background-color: rgb(34, 32, 32);
+      border: 2px dashed white;
+    }
+  
+    .blog-header {
+      color: white;
+      text-align: center;
+      font-family: Inter;
+      font-size: 26px; /* Adjust the font size for mobile */
+      font-style: normal;
+      font-weight: 700;
+      line-height: 38.4px; /* Adjust the line-height for mobile */
+      letter-spacing: -1.2px; /* Adjust the letter-spacing for mobile */
+    }
+  
+    .blog-main {
+      display: flex;
+      width: 400px;
+      padding-top: 10px; /* Adjust the padding-top for mobile */
+      flex-direction: column;
+      align-items: center; /* Center the elements horizontally */
+      gap: 20px;
+      align-self: stretch;
+    }
+  
+    .blog-row {
+      display: flex;
+      width: 400px;
+      padding-right: 0px;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      align-self: stretch;
+      border: 2px solid white;
+    }
+  
+    .blog-element {
+      display: flex;
+      padding-right: 0px;
+      width: 400px;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      align-self: stretch;
+    }
+  
+    .blog-image {
+      width: 80px; /* Adjust the image size for mobile */
+      height: 80px; /* Adjust the image size for mobile */
+      border-radius: 40px; /* Adjust the border-radius for mobile */
+      margin-left:20px;
+    }
+  
+    .blog-info {
+      display: flex;
+      width:300px; /* Adjust the width to fit the screen */
+      padding-bottom: 0px;
+      flex-direction: column;
+      align-items: center; /* Center the elements horizontally */
+      gap: 5px;
+    }
+  
+    .blog-info-header {
+      color: white;
+      text-align: center; /* Center the text horizontally */
+      font-family: Inter;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 28.8px; /* Adjust the line-height for mobile */
+      letter-spacing: -0.7px;
+    }
+  
+    .blog-info-date {
+      color: #666;
+      text-align: center; /* Center the text horizontally */
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 19.2px; /* Adjust the line-height for mobile */
+    }
+  
+    .link-nav {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  
+  @media (min-width: 764px) and (max-width: 1024px) {
+    .blog-wrapper {
+      width: 100%;
+      height: auto;
+      color: #EEDDD3;
+      margin-top: -550px;
+    }
+  
+    .blog-section {
+      display: inline-flex;
+      min-height: auto;
+      padding: 10px 10px;
+      flex-direction: column;
+      align-items: center;
+      background: #EEDDD3;
+      margin-top: 40px;
+    }
+  
+    .blog-part {
+      display: flex;
+      width: 900px;
+      max-width: 100%;
+      padding: 30px 150px;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      margin-left: 0;
+      background-color: rgb(34, 32, 32);
+      border: 2px dashed white;
+    }
+  
+    .blog-header {
+      color: white;
+      text-align: center;
+      font-family: Inter;
+      font-size: 30px; /* Adjust the font size for tablets */
+      font-style: normal;
+      font-weight: 700;
+      line-height: 48px; /* Adjust the line-height for tablets */
+      letter-spacing: -1.2px; /* Adjust the letter-spacing for tablets */
+    }
+  
+    .blog-main {
+      display: flex;
+      padding-top: 10px;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      align-self: stretch;
+    }
+  
+    .blog-row {
+      display: flex;
+      padding-right: 0px;
+      justify-content: center;
+      align-items: center;
+      gap: 20px; width: 700px;
+      margin-left: 150px;
+      align-self: stretch;
+      border: 2px solid white;
+    }
+  
+    .blog-element {
+      display: flex;
+      padding-right: 0px;
+      justify-content: center;
+      align-items: center;
+     
+      gap: 20px;
+      align-self: stretch;
+    }
+  
+    .blog-image {
+      width: 80px; /* Adjust the image size for tablets */
+      height: 80px; /* Adjust the image size for tablets */
+      border-radius: 40px; /* Adjust the border-radius for tablets */
+      margin-left: 40px;
+    }
+  
+    .blog-info {
+      display: flex;
+      width: 80%;
+      padding-bottom: 0px;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+  
+    .blog-info-header {
+      color: white;
+      text-align: center; /* Center the text horizontally */
+      font-family: Inter;
+      font-size: 18px; /* Adjust the font size for tablets */
+      font-style: normal;
+      font-weight: 600;
+      line-height: 28.8px; /* Adjust the line-height for tablets */
+      letter-spacing: -0.7px;
+    }
+  
+    .blog-info-date {
+      color: #666;
+      text-align: center; /* Center the text horizontally */
+      font-family: Inter;
+      font-size: 14px; /* Adjust the font size for tablets */
+      font-style: normal;
+      font-weight: 500;
+      line-height: 19.2px; /* Adjust the line-height for tablets */
+    }
+  
+    .link-nav {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1439px){
+    .blog-wrapper{
+      margin-left: -250px;
+    }
+
+  }

@@ -1,18 +1,31 @@
-import React from 'react'
+
 import './Contact.css'
 const Contact = () => {
   return (
     <div className='contact-framer' id='contact'>
-        <div className='contact-form'>
-            <h2 className='contact-heading'>Stay Updated</h2>
-            <p className='contact-text'>Get exclusive trading insights, promotions, and news delivered straight to your inbox. Don’t miss a beat – sign up for our newsletter today and stay on top of your trading game!</p>
-            <div className='contact-fill'>
-                <input className='input-contact' placeholder='name@email.com'></input>
-                <button className='button-contact'>Subscribe</button>
-            </div>
-            
+      <div className='contact-wrapper'>
+        <div className='upper-contact'>
+          <div className='zone1-upper'>
+              <h2 className='contact-logo'>@Digital Assets Investement Fund</h2>
+              <div className='contact-info'>
+                <h2 className='contact-header'>Investing<br/>For Everyone</h2>
+                <span className='info-contact'>Signup now and get our newsletter full of crypto information FOR FREE</span>
+                <form className='contact-form'>
+                    <input className='contact-input' placeholder='Your email'></input>
+                    <button className='contact-button'>Get notified</button>
+                </form>
+              </div>
+          </div>
+          <div className='zone2-upper'>
+              <div className='phone-wrapper'>
+                <img src='../../assets/bitcoinchart.jpg' className='bitcoin-image'></img>
+                
+              </div>
+          </div>
         </div>
-      
+      </div>
+
+
     </div>
   )
 }

@@ -15,6 +15,7 @@
 }
 .quote{
     color: #FFF;
+    width: 1200px;
     text-align: center;
     font-family: Staatliches;
     font-size: 48px;
@@ -24,4 +25,71 @@
 }
 .quote:hover{
     color:gold;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .quote-framer {
+      display: flex;
+      min-height: 500px; /* Adjust the height as needed */
+      padding: 20px 20px; /* Adjust the padding */
+      justify-content: center;
+      align-items: center;
+      background: url(../../assets/quote-background.png), lightgray 0px -520px / 100% 180% no-repeat; /* Adjust the background */
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-color: black;
+    }
+  
+    .quote {
+      color: #FFF;
+      width: 100%; /* Adjust the width */
+      text-align: center;
+      font-family: Staatliches;
+      font-size: 32px; /* Adjust the font size for mobile */
+      font-style: normal;
+      font-weight: 400;
+      line-height: 44px; /* Adjust the line-height */
+    }
+  
+    .quote:hover {
+      color: gold;
+    }
+  }
+  
+/* For tablet devices (max-width: 1024px) */
+@media (min-width:764px) and (max-width: 1024px) {
+  .quote-framer {
+    display: flex;
+    height:800px;
+    width: 700px;
+    margin-left: 250px;
+    padding: 100px 20px; /* Adjust the padding */
+    justify-content: center;
+    align-items: center;
+    background: url(../../assets/quote-background.png), lightgray 0px -780px / 100% 280% no-repeat; /* Adjust the background */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: black;
+  }
+
+  .quote {
+    color: #FFF;
+    width: 100%; /* Adjust the width as needed */
+    text-align: center;
+    font-family: Staatliches;
+    font-size: 24px; /* Adjust the font size for tablet */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* Adjust the line-height */
+  }
+
+  .quote:hover {
+    color: gold;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1439px){
+  .quote{
+    margin-left: 60px;
+  }
 }

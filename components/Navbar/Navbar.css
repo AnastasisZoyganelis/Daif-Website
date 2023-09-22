@@ -27,7 +27,7 @@ margin-left: -200px;
 
 }
 .component1:hover,.component2:hover,.component3:hover{
-    text-decoration: underline;
+    color:red;
     cursor: pointer;
 }
 .framer{
@@ -79,3 +79,143 @@ position:relative;top:-20px;left:-90px;
       transform: translateY(-5px); /* Adjust the value to control the distance */
     }
   }
+  @media (max-width: 768px) {
+    .navigation-framer {
+      height: auto;
+      padding: 30px;
+      text-align: center;
+      padding:10px 250px;
+      
+    }
+  
+    .navigation-box {
+      flex-direction: column;
+      align-items: center;margin-left: -80px;
+    }
+  
+    .navigation-components {
+      align-self: center;
+      margin-top: 0px;
+      margin-left: 0;
+    }
+  
+    .framer {
+      gap: 30px;
+      font-size: 16px;
+      line-height: 1.2;
+    }
+  
+    .logo-framer {
+      width: 60px;
+      margin-top: 0px;
+    }
+  
+    .navigation-header {
+      font-size: 30px;
+      margin-top: 80px;
+      margin-left: 0;
+      
+    }
+  
+    .navigation-logo-text {
+      font-size: 16px;
+      top: 0;
+      left: 0;
+      margin-bottom: 30px;
+    }
+  
+   
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .navigation-framer {
+      height: auto;
+      padding: 30px;
+      text-align: center;
+      /* Adjust the padding as needed */
+      padding: 10px 400px;
+    }
+  
+    .navigation-box {
+      flex-direction: column;
+      align-items: center;
+      margin-left: -0px;
+      /* Adjust the margin as needed */
+    }
+  
+    .navigation-components {
+      align-self: center;
+      margin-top: 0px;
+      margin-left: 0;
+    }
+  
+    .framer {
+      gap: 60px;
+      font-size: 20px;
+      line-height: 1.2;
+    }
+  
+    .logo-framer {
+      width: 60px;
+      margin-top: 0px;
+    }
+  
+    .navigation-header {
+      font-size: 50px;
+      margin-top: 180px;
+      margin-left: 0;
+    }
+  
+    .navigation-logo-text {
+      font-size: 16px;
+      top: 0;
+      left: 0;
+      margin-bottom: 30px;
+    }
+  }
+
+/* For screens with a width between 1024px and 1440px (e.g., larger laptops and desktops) */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .navigation-framer {
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    padding: 10px 600px; /* Adjust the padding as needed */
+  }
+
+  .navigation-box {
+    flex-direction: column;
+    align-items: center;
+    margin-left: -0px; /* Adjust the margin as needed */
+  }
+
+  .navigation-components {
+    align-self: center;
+    margin-top: 0px;
+    margin-left: 0;
+  }
+
+  .framer {
+    gap: 60px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .logo-framer {
+    width: 60px;
+    margin-top: 0px;
+  }
+
+  .navigation-header {
+    font-size: 50px;
+    margin-top: 180px;
+    margin-left: 0;
+  }
+
+  .navigation-logo-text {
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    margin-bottom: 30px;
+  }
+}

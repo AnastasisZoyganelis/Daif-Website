@@ -1,0 +1,84 @@
+/* Slideshow container */
+.slideshow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px; /* Set a maximum width for the slideshow */
+    margin: 0 auto;
+    margin-top: -200px;
+    margin-bottom: 40px;
+    position: relative;
+    background-color: black;
+    
+  }
+  
+  
+  /* Slideshow image */
+  .slide-image {
+    width:500px;
+    height: 500px;
+    display: block;
+    transition: transform 0.5s ease; /* Add a smooth transition effect */
+  }
+  .wins-title{
+    color:red;
+  }
+  /* Mobile Styles */
+@media (max-width: 768px) {
+  /* Slideshow container */
+  .slideshow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    max-width: 100%; /* Set a maximum width for the slideshow */
+    margin: 0 auto;
+    margin-top: -40px; /* Adjust the margin-top as needed */
+    margin-bottom: 20px; /* Adjust the margin-bottom as needed */
+    position: relative;
+    background-color: black;
+  }
+
+  /* Slideshow image */
+  .slide-image {
+    width: 100%; /* Adjust the width to fit the screen */
+    height: 400px; /* Ensure the aspect ratio is maintained */
+    display: block;
+    transition: transform 0.5s ease; /* Add a smooth transition effect */
+  }
+
+  .wins-title {
+    color: red;
+  }
+}
+/* For tablet devices (max-width: 1024px) */
+@media (min-width:764px)and(max-width: 1024px) {
+  /* Slideshow container */
+  .slideshow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%; /* Adjust the width as needed */
+    max-width: 800px; /* Set a maximum width for the slideshow */
+    margin: 0 auto;
+    margin-top: -80px; /* Adjust the margin-top as needed */
+    margin-bottom: 20px; /* Adjust the margin-bottom as needed */
+    position: relative;
+    background-color: black;
+  }
+
+  /* Slideshow image */
+  .slide-image {
+    width: 110%; /* Adjust the width to fit the screen */
+    height: 800px; /* Ensure the aspect ratio is maintained */
+    display: block;
+    transition: transform 0.5s ease; /* Add a smooth transition effect */
+    margin-left: 150px;
+  }
+
+  .wins-title {
+    color: red;
+  }
+}
